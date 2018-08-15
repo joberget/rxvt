@@ -1,0 +1,62 @@
+Rxvt*transparent:false
+
+# tint with any color; i.e., blue, red, tomato4, olivedrab2, etc.
+#   some nice listings are at:
+#     http://www.nisrv.com/modules.php?name=Hex_Colors
+#     http://www.htmlgoodies.com/tutorials/colors/article.php/3478921
+#Rxvt*tintColor:white
+
+# shading - 0 to 99 darkens, 101 to 200 lightens.
+#   Don't use with tintColor; use a darker or lighter color instead.
+#Rxvt*shading:60
+
+# scrollback buffer lines - 65535 is max (64 is default)
+Rxvt*saveLines:12000
+
+# font color (default is black)
+Rxvt*foreground:green
+
+# background color (prior to tinting) (default is white)
+Rxvt*background:black
+
+# xft fonts - anti-aliased xft font setup is nice, but can be choppy
+Rxvt*font: xft:Bitstream Vera Sans Mono:pixelsize=12
+
+# traditional fonts - a more traditional font setup in lieu of xft
+#URxvt*font:-*-courier-medium-r-normal-*-*-140-*-*-*-*-iso8859-1
+#URxvt*boldFont:-*-courier-bold-r-normal-*-*-140-*-*-*-*-iso8859-1
+
+# Replace blue folder colors with a lighter shade for clarity. To
+# set colored folders and files within urxvt, xterm, and aterm, add
+# the following line to your ~/.bashrc ($HOME/.bashrc) file under
+# the heading "# User specific aliases and functions":
+#   alias ls="ls -h --color=auto"
+Rxvt*color4:	  black
+rxvt*color8:     #006400
+rxvt*color9:     #330000
+rxvt*color10:    red
+rxvt*color11:    #4B0082
+Rxvt*color12:	  #00009C
+rxvt*color13:    #FF6103
+rxvt*color14:    #5E2605
+rxvt*color15:    black
+
+# scrollbar - true (default) or false
+Rxvt*scrollBar:true
+
+# scrollbar position - left=false (default) or right=true
+Rxvt*scrollBar_right:true
+
+# scrollbar style - rxvt (default), plain, next, or xterm
+Rxvt*scrollstyle:plain
+
+# scrollbar color
+Rxvt*scrollColor:#242424
+
+
+# added for irssi
+rxvt*perl-lib:         /usr/lib/urxvt/perl/
+rxvt*perl-ext-common:  default,matcher
+rxvt*matcher.button:   1
+rxvt*urlLauncher:      /usr/local/bin/firefox
+Rxvt*cutchars:			`"()'*<>[]{|}
