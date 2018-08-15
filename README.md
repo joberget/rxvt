@@ -1,0 +1,2 @@
+# rxvt
+Rxvt setup
